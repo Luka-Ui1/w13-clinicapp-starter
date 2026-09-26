@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API_BASE = import.meta.env.VITE_API_BASE || '/api';
+const API_BASE = 'https://app-clinic-api-66021128-fnhpb6b4gpfxhvhx.centralindia-01.azurewebsites.net';
 
 export default function App() {
   const [doctors, setDoctors] = useState([]);
